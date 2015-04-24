@@ -1,0 +1,21 @@
+<ion-view view-title="Your Schedule">
+  <ion-content>
+    <div class="list card">
+      <div class="item item-divider">Your schedule for today</div>
+      <div class="item item-body">
+        <div ng-repeat="program in programs">
+          <h3>
+            {{program.title}}
+          </h3>
+        </div>
+      </div>
+      <div class="item item-divider">Note!</div>
+      <div class="item item-body">
+        <div>
+          The schedule above is being pulled directly from Daxko Mobile API. <b>woohoo!</b>
+        </div>
+      </div>
+    </div>
+    
+  </ion-content>
+</ion-view>
